@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8"/>
+  <title>dit</title>
+  <link rel=stylesheet href="codemirror.css">
+  <link rel="stylesheet" href="examples.css">
+  <link rel="stylesheet" href="examples-highlight.css">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+  <style>
+    .markdown-body {
+      max-width: 980px;
+      margin: 50px;
+      font-family: 'Raleway', sans-serif;
+    }
+  </style>
+  <script src="codemirror.js"></script>
+  <script src="markdown.js"></script>
+  <script src="marked.min.js"></script>
+  <script src="playground.min.js"></script>
+</head>
+<body>
+    <div id="dit">
+        <textarea id="editor_text" name="editor_text"></textarea>
+    </div>
+    <div id="nav">
+      <button id="editor_toogle_button" onclick="toogle()">Hide</button>
+      <button id="editor_generate_button" onclick="generate()">Generate</button>
+      <button id="editor_save_button" onclick="save()">Save</button>
+    </div>
+    <div id="content" class="markdown-body"></div>
+    <script src="dit.js"></script>
+</body>
+</html>
