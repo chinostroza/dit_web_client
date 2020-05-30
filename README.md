@@ -1,7 +1,7 @@
 # dit markdown editor for developers
 
 - [x] Code editor
-- [x] Mark down
+- [x] Markdown
 - [x] Hide & Show editor
 - [x] Save local storage
 - [x] Kotlin playground
